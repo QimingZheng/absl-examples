@@ -25,3 +25,9 @@ cc_binary(
     deps = ["@com_google_absl//absl/status:status"],
     srcs = ["status_example.cc"]
 )
+
+cc_binary(
+    name = "synchronize",
+    deps = ["@com_google_absl//absl/synchronization:synchronization"],
+    srcs = ["synchronize.cc"]
+)
